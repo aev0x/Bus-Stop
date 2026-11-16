@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Abu Dhabi Bus Finder</title>
+    <!-- Connects to your CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="widget">
+        <h2>🚌 Abu Dhabi Bus Stops</h2>
+        
+        <!-- Search bar -->
+        <input type="text" id="search" placeholder="Type area or bus number..." onkeyup="filterStops()">
+
+        <!-- List of bus stops -->
+        <div id="bus-list">
+            <div class="stop-box">
+                <b>Al Wahda Mall</b><br>
+                Buses: 005, 034, 054<br>
+                Next bus: 3 mins
+            </div>
+
+            <div class="stop-box">
+                <b>Baniyas Bus Station</b><br>
+                Buses: 401, 402, 404<br>
+                Next bus: 5 mins
+            </div>
+
+            <div class="stop-box">
+                <b>Corniche Heritage Park</b><br>
+                Buses: 009, 011, 065<br>
+                Next bus: 8 mins
+            </div>
+
+            <div class="stop-box">
+                <b>Yas Mall West</b><br>
+                Buses: 102, 190, 216<br>
+                Next bus: 12 mins
+            </div>
+        </div>
+    </div>
+
+    <!-- Connects to your JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
